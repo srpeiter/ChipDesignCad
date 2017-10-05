@@ -177,7 +177,7 @@ class Squidjunction_transmon():
         height = self.dict_pads.get('height', 600)
         lead_width = self.dict_pads.get('lead_width', 10)
         lead_height = height + self.dict_pads.get('lead_height', 20)
-        fork_depth = self.dict_pads.get('fork_depth', 1)
+        fork_depth = self.dict_pads.get('fork_depth', 0)
         rounded_edges = self.dict_pads.get('rounded_edges', False)
         layer = self.dict_pads['layer']
 
@@ -238,18 +238,18 @@ class Squidjunction_transmon():
             corners['TL4O'] = 4
             corners['BR5'] = 5
             corners['TR6'] = 6
-            corners['TL7'] = 7
-            corners['BR8O'] = 8
-            corners['BL9O'] = 9
-            corners['TR10'] = 10
+            # corners['TL7'] = 7
+            # corners['BR8O'] = 8
+            # corners['BL9O'] = 9
+            # corners['TR10'] = 10
             corners['TL11'] = 11
             corners['BR12O'] = 12
             corners['BL13O'] = 13
             corners['TR14'] = 14
-            corners['TL15'] = 15
-            corners['BR16O'] = 16
-            corners['BL17O'] = 17
-            corners['TR18'] = 18
+            # corners['TL15'] = 15
+            # corners['BR16O'] = 16
+            # corners['BL17O'] = 17
+            # corners['TR18'] = 18
             corners['TL19'] = 19
             corners['BL20'] = 20
             corners['TR21O'] = 21

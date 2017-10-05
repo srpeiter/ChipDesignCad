@@ -47,7 +47,7 @@ class Junctiontest():
                     (j * self.nrows + i) * self.dw_junc
                 self.dict_junctions['junction_width'] = junc_width
                 name = 'testjj_' + str(junc_width)
-                print junc_width
+                
                 test_junction.name = name
                 test_junction.gen_pattern()
 
